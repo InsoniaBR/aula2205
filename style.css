@@ -1,0 +1,33 @@
+#grad1 {
+    
+    height: 200px;
+    background-color: #8e44ad; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right, #8e44ad, #3498db);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 25px;
+}
+
+#grad1:hover{
+    transform: rotate(15deg);
+    transition: 2s;
+}
+
+#grad2 {
+    border-radius: 50px;
+    height: 200px;
+    background-color: #ff6b6b; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right, #ff6b6b, #f06595);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);    
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+#grad2:hover {
+   transition: scale(20%);
+   transform: skewY(-10deg);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
